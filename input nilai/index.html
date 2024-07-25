@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekap Nilai</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <div class="logo">
+        <img src="eminem.jpeg" alt="" class="avatar" />
+      </div>
+
+      <h5>Khatta Assyadhillah</h5>
+      <h5>5052.5052.5052</h5>
+
+      <hr style="width: 220px; color: aliceblue; margin: auto" />
+      <div class="section">
+        <a href="..\dashboard\index.html">Dashboard</a>
+        <a href="#">Materi</a>
+        <a href="#">Data Mahasiswa</a>
+        <a href="..\rekap\index.html">Rekap Nilai</a>
+        <a href="#">Pengaturan</a>
+      </div>
+
+      <a href="..\login\index.html"><button>Logout</button></a>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+      <h2>Rekap Nilai</h2>
+      <hr
+        style="width: 220px; height: 10px; color: rgb(0, 0, 0); margin-top: 0"
+      />
+
+      <div>
+        <label for=""><h4>Pilih Kelas:</h4></label>
+        <select
+          class="form-select form-select-md mb-3"
+          aria-label="Large select example"
+          style="width: 20%"
+        >
+          <option selected></option>
+          <option value="1">D3TI-01</option>
+          <option value="1">D3TI-02</option>
+          <option value="1">D3TI-03</option>
+        </select>
+
+        <a href="..\rekap\index.html" style="text-decoration: none">
+          <button
+            type="button"
+            class="btn btn-secondary active"
+            style="width: auto"
+          >
+            Rekap Nilai
+          </button>
+        </a>
+        <a href="..\input nilai\index.html" style="text-decoration: none">
+          <button type="button" class="btn btn-secondary" style="width: auto">
+            Input Nilai
+          </button>
+        </a>
+        <div class="title">
+          <h2>Mohon Inputkan Nilai</h2>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            NIM Mahasiswa:
+            <form class="searchbar" action="action_page.php">
+              <input type="text" placeholder="Masukkan NIM" name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="save">
+              <div>
+                <a href=""><h6>Simpan</h6></a>
+              </div>
+              <div>
+                <a href=""><h6>Batal</h6></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-6">
+                <input type="number" placeholder="Kehadiran" style="margin-top: 15px;" />
+                <input type="number" placeholder="UTS" style="margin-top: 15px;"/>
+                <input type="number" placeholder="UAS" style="margin-top: 15px;"/>
+              </div>
+              <div class="col-6">
+                <input type="number" placeholder="Responsi" style="margin-top: 15px;" />
+                <input type="number" placeholder="Tugas" style="margin-top: 15px;"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

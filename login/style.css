@@ -1,0 +1,73 @@
+body {
+  background-color: #e0fbfc;
+  padding-bottom: 253px;
+}
+.header {
+  top: 0;
+  /* position: fixed; */
+  background-color: #273339;
+  width: 100%;
+}
+.headertext {
+  color: #ffc107;
+  font-family: sans-serif;
+}
+/* 8C8889 */
+/* D9D9D9 */
+.form {
+  margin: auto;
+  margin-top: 100px;
+  /* background-color: #8c8889; */
+  width: 893px;
+  height: 479px;
+  border-radius: 34px 0px;
+  display: grid;
+  grid-template-columns: 376px 517px;
+}
+.kanan {
+  background-color: #494e57;
+  border-radius: 0 0 34px 0;
+}
+.kiri {
+  background-color: #2b2c30;
+  border-radius: 34px 0 0 0;
+}
+.kananmain {
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 250px;
+  margin: auto;
+  margin-top: 70px;
+  height: auto;
+}
+
+input {
+  margin-bottom: 15px;
+}
+.kirimain {
+  color: white;
+  width: 260px;
+  margin: auto;
+  margin-top: 124px;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  width: 120px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background: #007bff;
+  border-radius: 10px;
+}
